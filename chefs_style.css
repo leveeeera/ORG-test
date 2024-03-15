@@ -1,0 +1,332 @@
+:root{
+  --navy:#38419D ;
+  --blue:#3887BE;
+  --teal:#52D3D8;
+  --darkNavy:#200E3A;
+}
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/*  icon style */
+
+.employers-logo{
+  color: white;
+  background-color: var(--teal);
+  padding: 15px 15px;
+  border-radius: 50%;
+}
+.directors-logo{
+  background-color: var(--blue);
+  padding: 15px 14px;
+  border-radius: 50%;
+  text-align: center;
+}
+.chefs-logo{
+  background-color: orange;
+  padding: 15px 20px;
+  border-radius: 50%;
+  text-align: center;
+}
+.atelier-logo{
+  background-color: green;
+  padding: 15px 20px;
+  border-radius: 50%;
+  text-align: center;
+}
+.fa{
+  font-size: 30px;
+  transition: all .3s ease-in;
+}
+/* body */
+body{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  overflow-x: hidden;
+  background-color: aliceblue;
+}
+/* sidebar style */
+.menu span{
+  display: none;
+  color: white;
+  transition: all .3s ease-in;
+}
+.logo{
+  background: url(logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 90%;
+  height: 10%;
+  transition: all .3s ease-in;
+}
+.menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 50px;
+  height: 50%;
+  width: 100%;
+  padding: 20px;
+
+}
+.menu a{
+  display: flex;
+  align-items: center;
+  gap:  15px;
+  width: 150px;
+  height: 45px;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+menu li{
+  transition: padding .2s ease;
+}
+.sidebar{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 90px;
+  height: 150vh;
+  background: linear-gradient(to bottom, var(--teal), var(--blue),var(--navy)); 
+  overflow: hidden;
+  transition: all .3s ease-in ;
+  border-radius: 0 0 40px 40px;
+}
+.sidebar:hover{
+  width: 250px;
+}
+.sidebar:hover .menu li .fa{
+  font-size: 20px;
+}
+.sidebar:hover .menu li a span{
+  display: block;
+}
+.sidebar:hover .logo{
+  width: 100%;
+  height: 20%;
+}
+.sidebar a:hover{
+  background: linear-gradient(to left, var(--teal), var(--blue),var(--navy)); 
+}
+.sidebar li:hover{
+  padding-left: 15px;
+}
+/* container */
+.container{
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background-color: rgba(202, 199, 199, 0.5);
+}
+/* header */
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  background: linear-gradient(to left, var(--navy), var(--darkNavy));
+  border-radius: 20px;
+  padding: 0px 20px ;
+}
+.title{
+  color: white;
+}
+.span-1{
+  font-size: 20px;
+
+}
+h2{
+  font-weight: bolder;
+  color: var(--teal);
+}
+.search-logo{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.search-bar{
+  display: flex;
+  align-items: center;
+  background-color: white ;
+  border-radius: 20px;
+  height: 150%;
+  padding: 0px 5px;
+}
+.search-bar i{
+  color: grey;
+  font-size: 20px;
+}
+.search-bar:hover i{
+  transform: rotate(360deg);
+}
+#search{
+  width: 85%;
+  padding: 10px;
+  font-size: 15px ;
+  border: none;
+  outline: none;
+}
+/* data style */
+.data-container{
+  background-color: var(--teal);
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+h3{
+  font-size: 15px;
+  color: white;
+}
+.data{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+
+}
+.overview-data{
+  width: 30%;
+  height: 80%;
+  background-color: var(--darkNavy);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: all .2s linear;
+}
+.overview-data:hover{
+  margin-bottom: 10px;
+}
+.chefs-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  width: 100%;
+}
+.chefs-data{
+  display: flex;
+  position: relative;
+  right: 35%;
+}
+.size{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+   width: 80%;
+   height: 100px;
+  
+}
+.size>span{
+  font-size: 25px;
+  color: var(--teal);
+}
+
+/**************************************/
+.atelier_names{
+ width: 100%;
+ height: 30vh;
+ background: whitesmoke;
+ display: flex;
+ justify-content: center;
+ align-content: center;
+ align-items: center;
+ justify-content: space-around;
+ border-radius: 10px;
+}
+.atelier_names .title_atelier{
+  color: #200E3A;
+  font-size: 20px;
+}
+
+.atelier_names .atelier_liste {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.atelier_names .atelier_liste li{
+  padding: 30px;
+  background-color: #52D3D8;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.atelier_names .atelier_liste li:hover{
+  background-color: whitesmoke;
+  color: #200E3A;
+  cursor: pointer;
+}
+.atelier_names .atelier_liste a{
+  text-decoration: none;
+  color: #200E3A;
+}
+
+/***** table *****/
+.data_table{
+  margin-top: 5%;
+}
+.chefs_data_table h2{
+  color: #200E3A;
+  text-align: start;
+}
+table{
+  width: 100%;
+  margin-top: 10px;
+  text-transform: capitalize;
+  text-align: center;
+}
+thead, tfoot{
+  background-color: var(--blue);
+  font-family: monospace;
+  color: whitesmoke;
+}
+.table1, .table2, .table3{
+  background-color: whitesmoke;
+  width: 100%;
+}
+table, th, td, tr{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+}
+
+/* charts */
+.graphbox_title{
+  margin: 40px;
+}
+.graph_box{
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap:30px;
+  min-height: 200px;
+}
+.graph_box .Box{
+  position: relative;
+  background:whitesmoke;
+  padding: 20px;
+  width: 95%;
+  box-shadow: 0 7px 25px rgba(0,0,0,0,08);
+  border-radius: 20px;
+  font-size: 18px;
+  color: #200E3A;
+}

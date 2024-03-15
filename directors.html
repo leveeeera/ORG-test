@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Directors</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">  
+    
+  <link rel="stylesheet" href="der_style.css">
+</head>
+<body>
+   <!-- sidebar -->
+  <aside class="sidebar">
+    <div class="logo"></div>
+    <ul class="menu">
+        <li><a href=""><i class="fa a-sharp fa-solid fa-eye"></i><span>overview</span></a></li>
+        <li><a href=""><i class="fa fa-solid fa-users"></i><span>employers</span></a></li>
+        <li><a href="directors.html"><i class="fa fa-regular fa-building-user"></i><span>directors</span></a></li>
+        <li><a href="chefs.html"><i class="fa fa-solid fa-user-tie"></i><span>chefs</span></a></li>
+        <li><a href=""><i class="fa fa-regular fa-pen-ruler"></i><span>atelier</span></a></li>
+        <li><a href=""><i class="fa fa-sign-out"></i><span>log out</span></a></li>
+    </ul>
+  </aside>
+  <!-- main section -->
+  <div class="container">
+      <!-- header / serachbar -->
+    <header class="header-container">
+      <div class="title">
+          <span class="span-1">primary</span>
+          <h2>dashbaord</h2>
+      </div>
+      <div class="search-logo">
+        <div class="search-bar">
+            <label for="search"><i class="fa fa-solid fa-search"></i></label>
+            <input type="search" name="search" id="search" placeholder="search">
+        </div>
+        <img src="logo.png" alt="" class="" width="50px" height="50px">
+      </div>
+    </header>
+    <div class="data-container">
+      <h3 >today's data</h3>
+    <div class="data">
+      
+      <div class="overview-data employers-data">
+          <div class="employers-container">
+              <div class="size">
+                  <p>employers</p>
+                  <span>500</span>
+              </div>
+              <div><i class="fa fa-solid fa-users  employers-logo"></i></div>
+          </div>
+
+      </div>
+      <div class="overview-data directors-data">
+          <div class="directors-container">
+              <div class="size">
+                  <p>directors</p>
+                  <span>20</span>
+              </div>
+              <div><i class="fa fa-regular fa-building-user directors-logo"></i></div>
+          </div>
+
+      </div>
+      <div class="overview-data chefs-data">
+          <div class="chefs-container">
+              <div class="size">
+                  <p>chefs</p>
+                  <span>50</span>
+              </div>
+              <div><i class="fa fa-solid fa-user-tie chefs-logo"></i></div>
+          </div>
+
+      </div>
+      <div class="overview-data atelier-data">
+          <div class="atelier-container">
+              <div class="size">
+                  <p>atelier</p>
+                  <span>6</span>
+              </div>
+              <div><i class="fa fa-regular fa-pen-ruler atelier-logo"></i></div>
+          </div>
+
+      </div>
+    </div>
+    </div>
+    <!-----Directors Data----->
+    <div class="directors_chose_name">
+      <h1>Directors Name</h1>
+        <div class="chose_erea">
+          <!--<label for="Directors_name">Choose a Director:</label>-->
+          
+          <select>
+            <option>Chose Director name</option>
+            <option id="table_3">Fatima Zahra Kasimi</option>
+            <option>Rachid Ajboun</option>
+            <option>Mohammed Stili</option>
+            <option>Flan Ban Flan</option>
+          </select>
+        </div>
+    </div>
+      <div class="data_table">
+        <div class="directors_data_table" id="Directors_name">
+              <h2 id="table1">Hello, RACHID AJBOUN</h2>
+              <table class="table1" id="table1">
+                <thead>
+                  <th>Date</th>
+                  <th>Name</th>
+                  <th>Reference</th>
+                  <th>Department</th>
+                  <th>Salary</th>
+                </thead>
+                <tr>
+                  <td>2011/03/03</td>
+                  <td rowspan="5">RACHID AJBOUN</td>
+                  <td>Board of Directors</td>
+                  <td>Executive Management</td>
+                  <td>5000$</td>
+                </tr>
+                <tr>
+                  <td>2014/04/11</td>
+                  <td>Board of Directors</td>
+                  <td>Executive Leadership</td>
+                  <td>6300$</td>
+                </tr>
+                <tr>
+                  <td>2016/03/11</td>
+                  <td>Board of Directors</td>
+                  <td>Administration</td>
+                  <td>6700$</td>
+                </tr>
+                <tr>
+                  <td>2019/03/08</td>
+                  <td>Board of Directors</td>
+                  <td>Product Development</td>
+                  <td>6900$</td>
+                </tr>
+                <tr>
+                  <td>2022/02/08</td>
+                  <td>Board of Directors</td>
+                  <td>Agency Leadership</td>
+                  <td>7400$</td>
+                </tr>
+                <tfoot>
+                  <th>Total:</th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th>32.300$</th>
+                </tfoot>
+              </table>
+            
+            <!------------charts-------
+            <h2 class="graphbox">Take a look!</h2>
+            <div class="graph_box">
+              <div class="Box">
+                <canvas id="myChart"></canvas>
+              </div>
+              <div class="Box">
+                <canvas id="myChart2"></canvas>
+              </div>
+            </div>--------->
+          <br><br>
+          <hr><br><br>
+            <!-------table 2-------->
+    
+              <h2>Hello, Mouhammed Stili</h2>
+              <table class="table2">
+                <thead>
+                  <th>Date</th>
+                  <th>Name</th>
+                  <th>Reference</th>
+                  <th>Department</th>
+                  <th>Salary</th>
+                </thead>
+                <tr>
+                  <td>2011/03/03</td>
+                  <td rowspan="5">Mouhammed Stili</td>
+                  <td>Board of Directors</td>
+                  <td>Executive Management</td>
+                  <td>5000$</td>
+                </tr>
+                <tr>
+                  <td>2014/04/11</td>
+                  <td>Board of Directors</td>
+                  <td>Executive Leadership</td>
+                  <td>6300$</td>
+                </tr>
+                <tr>
+                  <td>2016/03/11</td>
+                  <td>Board of Directors</td>
+                  <td>Administration</td>
+                  <td>6700$</td>
+                </tr>
+                <tr>
+                  <td>2019/03/08</td>
+                  <td>Board of Directors</td>
+                  <td>Product Development</td>
+                  <td>6900$</td>
+                </tr>
+                <tr>
+                  <td>2022/02/08</td>
+                  <td>Board of Directors</td>
+                  <td>Agency Leadership</td>
+                  <td>7400$</td>
+                </tr>
+                <tfoot>
+                  <th>Total:</th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th>32.300$</th>
+                </tfoot>
+              </table>
+
+              <br><br>
+              <hr><br><br>
+              
+              <h2>Hello, Fatima Zahra Kasimi</h2>
+              <table class="table3" id="table3">
+                <thead>
+                  <th>Date</th>
+                  <th>Name</th>
+                  <th>Reference</th>
+                  <th>Department</th>
+                  <th>Salary</th>
+                </thead>
+                <tr>
+                  <td>2011/03/03</td>
+                  <td rowspan="5">Fatima Zahra Kasimi</td>
+                  <td>Board of Directors</td>
+                  <td>Executive Management</td>
+                  <td>5000$</td>
+                </tr>
+                <tr>
+                  <td>2014/04/11</td>
+                  <td>Board of Directors</td>
+                  <td>Executive Leadership</td>
+                  <td>6300$</td>
+                </tr>
+                <tr>
+                  <td>2016/03/11</td>
+                  <td>Board of Directors</td>
+                  <td>Administration</td>
+                  <td>6700$</td>
+                </tr>
+                <tr>
+                  <td>2019/03/08</td>
+                  <td>Board of Directors</td>
+                  <td>Product Development</td>
+                  <td>6900$</td>
+                </tr>
+                <tr>
+                  <td>2022/02/08</td>
+                  <td>Board of Directors</td>
+                  <td>Agency Leadership</td>
+                  <td>7400$</td>
+                </tr>
+                <tfoot>
+                  <th>Total:</th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th>32.300$</th>
+                </tfoot>
+              </table>
+              <!----
+              <h2 class="graphbox">Take a look!</h2>
+              <div class="graph_box">
+                <div class="Box">
+                  <canvas id="mytable2-1"></canvas>
+                </div>
+                <div class="Box">
+                  <canvas id="mytable2-2"></canvas>
+                </div>
+              </div>-->
+          </div>
+      </div>
+  </div>
+          
+          <!------------charts
+          <h2 class="graphbox">Take a look!</h2>
+          <div class="graph_box">
+            <div class="Box">
+              <canvas id="myChart"></canvas>
+            </div>
+            <div class="Box">
+              <canvas id="myChart2"></canvas>
+            </div>
+          </div>---------------->
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+  <script src="my_chart.js"></script>
+</body>
+</html>
