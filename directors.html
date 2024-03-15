@@ -27,6 +27,7 @@
   <!-- main section -->
   <div class="container">
       <!-- header / serachbar -->
+    
     <header class="header-container">
       <div class="title">
           <span class="span-1">primary</span>
@@ -40,6 +41,7 @@
         <img src="logo.png" alt="" class="" width="50px" height="50px">
       </div>
     </header>
+    <!----
     <div class="data-container">
       <h3 >today's data</h3>
     <div class="data">
@@ -86,6 +88,7 @@
       </div>
     </div>
     </div>
+    --->
     <!-----Directors Data----->
     <div class="directors_chose_name">
       <h1>Directors Name</h1>
@@ -101,196 +104,199 @@
           </select>
         </div>
     </div>
+    <br><hr><br>
       <div class="data_table">
         <div class="directors_data_table" id="Directors_name">
-              <h2 id="table1">Hello, RACHID AJBOUN</h2>
-              <table class="table1" id="table1">
-                <thead>
-                  <th>Date</th>
-                  <th>Name</th>
-                  <th>Reference</th>
-                  <th>Department</th>
-                  <th>Salary</th>
-                </thead>
-                <tr>
-                  <td>2011/03/03</td>
-                  <td rowspan="5">RACHID AJBOUN</td>
-                  <td>Board of Directors</td>
-                  <td>Executive Management</td>
-                  <td>5000$</td>
-                </tr>
-                <tr>
-                  <td>2014/04/11</td>
-                  <td>Board of Directors</td>
-                  <td>Executive Leadership</td>
-                  <td>6300$</td>
-                </tr>
-                <tr>
-                  <td>2016/03/11</td>
-                  <td>Board of Directors</td>
-                  <td>Administration</td>
-                  <td>6700$</td>
-                </tr>
-                <tr>
-                  <td>2019/03/08</td>
-                  <td>Board of Directors</td>
-                  <td>Product Development</td>
-                  <td>6900$</td>
-                </tr>
-                <tr>
-                  <td>2022/02/08</td>
-                  <td>Board of Directors</td>
-                  <td>Agency Leadership</td>
-                  <td>7400$</td>
-                </tr>
-                <tfoot>
-                  <th>Total:</th>
-                  <th></th>
-                  <th></th>
-                  <th></th>
-                  <th>32.300$</th>
-                </tfoot>
+              <h2 class="table_title table1">Hello, RACHID AJBOUN</h2>
+              <table class="table1">
+                  <thead>
+                      <tr>
+                          <th>ref</th>
+                          <th>img</th>
+                          <th>name</th>
+                          <th>date</th>
+                          <th>Department</th>
+                          <th>$</th>
+                          <th class="menu_delete_btn">deleted</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td rowspan="7">1</td>
+                          <td rowspan="7"><img src="img/user-200x300.webp" alt="" class="img_profil"></td>
+                          <td rowspan="7">Mr. Rachid Ajboun</td>
+                          <td>02/03/2011</td>
+                          <td>Executive Management</td>
+                          <td>3000$</td>    
+                          <td>
+                              <button class="button"><img src="img/trash-regular-24.png" ></button>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>11/03/2013</td>
+                          <td>Executive Leadership</td>
+                          <td>3400$</td>    
+                          <td>
+                              <button class="button"><img src="img/trash-regular-24.png" ></button>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>11/06/2016</td>
+                          <td>Product Development</td>
+                          <td>4400$</td>    
+                          <td>
+                              <button class="button"><img src="img/trash-regular-24.png" ></button>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>11/06/2019</td>
+                          <td>Agency Leadership</td>
+                          <td>4900$</td>    
+                          <td>
+                              <button class="button"><img src="img/trash-regular-24.png" ></button>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>10/06/2022</td>
+                          <td>Administration</td>
+                          <td>5900$</td>    
+                          <td>
+                              <button class="button"><img src="img/trash-regular-24.png" ></button>
+                          </td>
+                      </tr>
+                  </tbody>
               </table>
-            
-            <!------------charts-------
-            <h2 class="graphbox">Take a look!</h2>
-            <div class="graph_box">
-              <div class="Box">
-                <canvas id="myChart"></canvas>
-              </div>
-              <div class="Box">
-                <canvas id="myChart2"></canvas>
-              </div>
-            </div>--------->
           <br><br>
           <hr><br><br>
             <!-------table 2-------->
     
-              <h2>Hello, Mouhammed Stili</h2>
+              <h2 class="table_title">Hello, Mouhammed Stili</h2>
               <table class="table2">
-                <thead>
-                  <th>Date</th>
-                  <th>Name</th>
-                  <th>Reference</th>
-                  <th>Department</th>
-                  <th>Salary</th>
-                </thead>
-                <tr>
-                  <td>2011/03/03</td>
-                  <td rowspan="5">Mouhammed Stili</td>
-                  <td>Board of Directors</td>
-                  <td>Executive Management</td>
-                  <td>5000$</td>
-                </tr>
-                <tr>
-                  <td>2014/04/11</td>
-                  <td>Board of Directors</td>
-                  <td>Executive Leadership</td>
-                  <td>6300$</td>
-                </tr>
-                <tr>
-                  <td>2016/03/11</td>
-                  <td>Board of Directors</td>
-                  <td>Administration</td>
-                  <td>6700$</td>
-                </tr>
-                <tr>
-                  <td>2019/03/08</td>
-                  <td>Board of Directors</td>
-                  <td>Product Development</td>
-                  <td>6900$</td>
-                </tr>
-                <tr>
-                  <td>2022/02/08</td>
-                  <td>Board of Directors</td>
-                  <td>Agency Leadership</td>
-                  <td>7400$</td>
-                </tr>
-                <tfoot>
-                  <th>Total:</th>
-                  <th></th>
-                  <th></th>
-                  <th></th>
-                  <th>32.300$</th>
-                </tfoot>
+                  <thead>
+                      <tr>
+                          <th>ref</th>
+                          <th>img</th>
+                          <th>name</th>
+                          <th>date</th>
+                          <th>Department</th>
+                          <th>$</th>
+                          <th class="menu_delete_btn">deleted</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td rowspan="7">2</td>
+                          <td rowspan="7"><img src="img/user-200x300.webp" alt="" class="img_profil"></td>
+                          <td rowspan="7">Mr. Mouhammed Stili</td>
+                          <td>02/03/2011</td>
+                          <td>Executive Management</td>
+                          <td>3000$</td>    
+                          <td>
+                              <button class="button"><img src="img/trash-regular-24.png" ></button>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>11/03/2013</td>
+                          <td>Executive Leadership</td>
+                          <td>3400$</td>    
+                          <td>
+                              <button class="button"><img src="img/trash-regular-24.png" ></button>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>11/06/2016</td>
+                          <td>Product Development</td>
+                          <td>4400$</td>    
+                          <td>
+                              <button class="button"><img src="img/trash-regular-24.png" ></button>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>11/06/2019</td>
+                          <td>Agency Leadership</td>
+                          <td>4900$</td>    
+                          <td>
+                              <button class="button"><img src="img/trash-regular-24.png" ></button>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>10/06/2022</td>
+                          <td>Administration</td>
+                          <td>5900$</td>    
+                          <td>
+                              <button class="button"><img src="img/trash-regular-24.png" ></button>
+                          </td>
+                      </tr>
+                  </tbody>
               </table>
 
               <br><br>
               <hr><br><br>
               
-              <h2>Hello, Fatima Zahra Kasimi</h2>
+              <h2 class="table_title">Hello, Fatima Zahra Kasimi</h2>
               <table class="table3" id="table3">
-                <thead>
-                  <th>Date</th>
-                  <th>Name</th>
-                  <th>Reference</th>
-                  <th>Department</th>
-                  <th>Salary</th>
-                </thead>
-                <tr>
-                  <td>2011/03/03</td>
-                  <td rowspan="5">Fatima Zahra Kasimi</td>
-                  <td>Board of Directors</td>
-                  <td>Executive Management</td>
-                  <td>5000$</td>
-                </tr>
-                <tr>
-                  <td>2014/04/11</td>
-                  <td>Board of Directors</td>
-                  <td>Executive Leadership</td>
-                  <td>6300$</td>
-                </tr>
-                <tr>
-                  <td>2016/03/11</td>
-                  <td>Board of Directors</td>
-                  <td>Administration</td>
-                  <td>6700$</td>
-                </tr>
-                <tr>
-                  <td>2019/03/08</td>
-                  <td>Board of Directors</td>
-                  <td>Product Development</td>
-                  <td>6900$</td>
-                </tr>
-                <tr>
-                  <td>2022/02/08</td>
-                  <td>Board of Directors</td>
-                  <td>Agency Leadership</td>
-                  <td>7400$</td>
-                </tr>
-                <tfoot>
-                  <th>Total:</th>
-                  <th></th>
-                  <th></th>
-                  <th></th>
-                  <th>32.300$</th>
-                </tfoot>
+                  <thead>
+                      <tr>
+                          <th>ref</th>
+                          <th>img</th>
+                          <th>name</th>
+                          <th>date</th>
+                          <th>Department</th>
+                          <th>$</th>
+                          <th class="menu_delete_btn">deleted</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td rowspan="7">3</td>
+                          <td rowspan="7"><img src="img/user-200x300.webp" alt="" class="img_profil"></td>
+                          <td rowspan="7">Mrs. Fatima Zahra Kasimi</td>
+                          <td>02/03/2011</td>
+                          <td>Executive Management</td>
+                          <td>3000$</td>    
+                          <td>
+                              <button class="button"><img src="img/trash-regular-24.png" ></button>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>11/03/2013</td>
+                          <td>Executive Leadership</td>
+                          <td>3400$</td>    
+                          <td>
+                              <button class="button"><img src="img/trash-regular-24.png" ></button>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>11/06/2016</td>
+                          <td>Product Development</td>
+                          <td>4400$</td>    
+                          <td>
+                              <button class="button"><img src="img/trash-regular-24.png" ></button>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>11/06/2019</td>
+                          <td>Agency Leadership</td>
+                          <td>4900$</td>    
+                          <td>
+                              <button class="button"><img src="img/trash-regular-24.png" ></button>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>10/06/2022</td>
+                          <td>Administration</td>
+                          <td>5900$</td>    
+                          <td>
+                              <button class="button"><img src="img/trash-regular-24.png" ></button>
+                          </td>
+                      </tr>
+                  </tbody>
               </table>
-              <!----
-              <h2 class="graphbox">Take a look!</h2>
-              <div class="graph_box">
-                <div class="Box">
-                  <canvas id="mytable2-1"></canvas>
-                </div>
-                <div class="Box">
-                  <canvas id="mytable2-2"></canvas>
-                </div>
-              </div>-->
+              
           </div>
       </div>
   </div>
-          
-          <!------------charts
-          <h2 class="graphbox">Take a look!</h2>
-          <div class="graph_box">
-            <div class="Box">
-              <canvas id="myChart"></canvas>
-            </div>
-            <div class="Box">
-              <canvas id="myChart2"></canvas>
-            </div>
-          </div>---------------->
-  
+       
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
   <script src="my_chart.js"></script>
 </body>
